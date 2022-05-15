@@ -29,6 +29,7 @@ kotlin {
 
 dependencies {
     // Align versions of all Kotlin components
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
 
     // Use the Kotlin JDK 8 standard library.
